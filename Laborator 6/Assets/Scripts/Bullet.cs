@@ -11,7 +11,6 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         // Obtine referinta la componenta Rigidbody de pe obiectul pe care e atasat scriptul
-        // Inainte de Start() (adica inainte chiar si de primul frame relativ la obiectul nou instantiat)
         rb = GetComponent<Rigidbody>();
     }
 
